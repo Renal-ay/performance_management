@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-06-25 09:45:46.014604",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "performance_review_section",
+  "naming_series",
+  "employee",
+  "review_date",
+  "performance_period_start",
+  "performance_period_end",
+  "performance_score",
+  "status",
+  "province",
+  "city",
+  "performance_criteria"
+ ],
+ "fields": [
+  {
+   "fieldname": "performance_review_section",
+   "fieldtype": "Section Break",
+   "label": "Performance Review"
+  },
+  {
+   "fieldname": "review_date",
+   "fieldtype": "Date",
+   "label": "Review Date"
+  },
+  {
+   "fieldname": "performance_period_start",
+   "fieldtype": "Date",
+   "label": "Performance Period Start"
+  },
+  {
+   "fieldname": "performance_period_end",
+   "fieldtype": "Date",
+   "label": "Performance Period End"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nSubmitted\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Province"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "City"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "no_copy": 1,
+   "options": "PERFORMANCE-REVIEW-"
+  },
+  {
+   "fieldname": "performance_score",
+   "fieldtype": "Int",
+   "label": "Performance Score (1-100)"
+  },
+  {
+   "fieldname": "performance_criteria",
+   "fieldtype": "Table",
+   "label": "Performance Criteria",
+   "options": "Performance Criteria"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-13 11:32:19.073875",
+ "modified_by": "Administrator",
+ "module": "Performance Management",
+ "name": "Performance Review",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Department Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

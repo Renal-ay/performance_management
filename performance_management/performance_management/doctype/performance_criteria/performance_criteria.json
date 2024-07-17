@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-13 11:24:50.216666",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "performance_criteria_section",
+  "criteria",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "performance_criteria_section",
+   "fieldtype": "Section Break",
+   "label": "Performance Criteria"
+  },
+  {
+   "fieldname": "criteria",
+   "fieldtype": "Data",
+   "label": "Criteria"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-13 11:38:51.967709",
+ "modified_by": "Administrator",
+ "module": "Performance Management",
+ "name": "Performance Criteria",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
