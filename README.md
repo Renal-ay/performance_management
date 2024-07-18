@@ -8,10 +8,13 @@ Effective performance management is key to unlocking your team's full potential 
 
 ## Installation Steps
 Step 1) One time to get app
-bench get-app https://github.com/Renal-ay/performance_management
+# get app
+$ bench get-app https://github.com/Renal-ay/performance_management
+
 
 Step 2) to install app on any instance/site
-bench --site [sitename] install-app performance_management
+# install on site
+$ bench --site sitename install-app performance_management
 
 ## Screenshots
 
