@@ -14,15 +14,6 @@ $ bench get-app https://github.com/Renal-ay/performance_management
 ### Step 2) to install app on any instance/site
 $ bench --site sitename install-app performance_management
 
-## Screenshots
-
-## Make New Performance Review
-<img width="958" alt="frappe-1" src="https://github.com/user-attachments/assets/28f3853a-626d-4c60-8b88-628642809ded">
-
-## Workflow process for Performance Review by ERPNext
-
-<img width="958" alt="frappe-2" src="https://github.com/user-attachments/assets/854832af-117c-4d08-bde3-7f4318bf7799">
-
 #### License
 
 mit
